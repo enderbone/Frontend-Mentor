@@ -6,6 +6,12 @@ body {
     font-size: 16px;
     font-family: 'Figtree';
     text-align: justify;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -14,7 +20,6 @@ img {
 
 main {
     margin: auto;
-    margin-top: 10rem;
     background-color: white;
 
     border: 1px solid black;   
@@ -41,13 +46,13 @@ h1 {
     font-weight: 800;
 }
 
-a {
+.int-link {
     text-decoration: none;
     color: hsl(0, 0%, 7%)
 }
 
 
-a:hover {
+.int-link:hover {
     color: hsl(47, 88%, 63%);;
 }
 
@@ -105,6 +110,10 @@ p {
 }
 
 .attribution {
-    margin: 20px
+    margin-top: 20px;
+    text-align: center;
 }
 
+.attribution > a{
+    text-decoration: none;
+}

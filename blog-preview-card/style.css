@@ -113,6 +113,7 @@ p {
 }
 
 .attribution {
+    display: block;
     text-align: center;
 }
 

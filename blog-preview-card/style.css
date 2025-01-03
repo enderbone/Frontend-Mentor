@@ -6,13 +6,10 @@ body {
     font-size: 16px;
     font-family: 'Figtree';
     text-align: justify;
-
-    /* height: auto; */
 }
 
 img {
     width: 100%;
-    /* height: auto; */
 }
 
 main {
@@ -85,8 +82,8 @@ a:hover {
 p {
     color: hsl(0, 0%, 42%);
     font-weight: 500;
-
-    width: 300px;
+    font-size: 1.02rem;
+    text-align: left;
 }
 
 
@@ -98,8 +95,8 @@ p {
     font-weight: 800;
 
     position: relative;
-    bottom: 1em;
-    left: 1em;
+    bottom: 1rem;
+    left: 1rem;
 }
 
 
